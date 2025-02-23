@@ -1,0 +1,106 @@
+@media (max-width: 480px){
+    .conteiner{
+        max-width: 470px;
+    }
+    header{
+        display: none;
+    }
+    .ojjo_text{
+        margin: 0;
+        display: block;
+        height: auto;
+    }
+    .section_text{
+        font-size: 26px;
+    }
+    .ojjo_btn{
+        width: 200px;
+        height: 40px;
+        font-size: 15px;
+        margin-left: 130px;
+    }
+    .ojjo{
+        height: auto;
+    }
+    .catalog_btn_content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .row{
+        grid-template-columns: 1fr 1fr;
+    }
+    .catalog_first_text{
+        padding-top: 123px;
+    }
+    .sm-size{
+        height: 235px;
+    }
+    .addresses_content{
+        margin-top: 54px;
+    }
+    .gift_btn{
+        margin: 30px 99px;
+    }
+    .media{
+        display: grid;
+        grid-template-columns: 1fr ;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .media_img-video{
+        display: none;
+    }
+    .gift_video{
+        height: auto;
+    }
+    .offers{
+        height: auto;
+    }
+    .offers_form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .offers_title{
+        margin-bottom: 10px;
+        font-size: 27px;
+    }
+    .offers_subtitle{
+        margin-top: 10px;
+    }
+    .email{
+        width: 170px;
+        height: 35px;
+    }
+    .submit{
+        width: 148px;
+        height: 40px;
+    }
+    form{
+        width: 357px;
+        height: 65px;
+        margin: 10px 0;
+    }
+    .footer_fist_text{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .line1{
+        width: auto;
+    }
+    .catalog_btn{
+        width: 145px;
+        height: 55px;
+    }
+    .ojjo_logo_content{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+    .line{
+        display: none;
+    }
+    .ojjo_logo-media{
+        display: none;
+    }
+}

@@ -20,7 +20,7 @@
 /*OJJO*/
 .ojjo{
     background-image: url(../img/bgc.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 height: 100vh;
 }
@@ -168,27 +168,24 @@ background-color: #F9F9F9;
 } */
 .catalog_first{
     background-image: url(../img/Rectangle\ 5.jpg);
-height: 280px;
 }
 .catalog_second{
     background-image: url(../img/Rectangle\ 5\ —\ копия\ 2.jpg);
-height: 280px;
 }
 .catalog_third{
     background-image: url(../img/Rectangle\ 5\ —\ копия.jpg);
-height: 280px;
 }
 .catalog_ford{
     background-image: url(../img/Rectangle\ 5\ —\ копия\ 3.jpg);
-height: 280px;
 }
 .catalog_fifth{
     background-image: url(../img/Rectangle\ 5-2.jpg);
-height: 280px;
 }
 .catalog_sixth{
     background-image: url(../img/Rectangle\ 5-3.jpg);
-height: 280px;
+}
+.sm-size{
+    height: 280px;
 }
 .catalog_first_text{
 font-weight: 500;
@@ -342,6 +339,9 @@ margin: 5px 0 50px;
 .media_img{
     height: 300px;
 }
+.media_img-video{
+    height: 300px;
+}
 /*OFFERS*/
 .offers{
     height: 478px;
@@ -422,6 +422,8 @@ align-items: center;
 }
 .offers_text_content{
     margin-right: 55px;
+    display: flex;
+    flex-direction: column;
 }
 
 /*FOOTER*/
